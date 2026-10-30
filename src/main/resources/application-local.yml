@@ -1,0 +1,11 @@
+soap:
+  calculator:
+    url: http://www.dneonline.com/calculator.asmx
+  country-info:
+    url: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+  connect-timeout: 5s
+  read-timeout: 10s
+
+logging:
+  level:
+    org.springframework.ws.client.MessageTracing: TRACE
